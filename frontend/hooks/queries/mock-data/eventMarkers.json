@@ -1,0 +1,94 @@
+{
+  "markers": [
+    {
+      "id": 1,
+      "type": "public",
+      "startDate": "2023-10-15T00:00:00Z",
+      "endDate": "2023-10-15T23:59:59Z",
+      "entryCost": 50,
+      "title": "Music Festival",
+      "description": "A grand music festival featuring various artists.",
+      "adminId": 101,
+      "location": {
+        "latitude": 34.052235,
+        "longitude": -118.243683
+      },
+      "attendees": []
+    },
+    {
+      "id": 2,
+      "type": "public",
+      "startDate": "2023-11-20T00:00:00Z",
+      "endDate": "2023-11-20T23:59:59Z",
+      "entryCost": 30,
+      "title": "Food Expo",
+      "description": "A delicious food expo with cuisines from around the world.",
+      "adminId": 102,
+      "location": {
+        "latitude": 40.712776,
+        "longitude": -74.005974
+      },
+      "attendees": []
+    },
+    {
+      "id": 3,
+      "type": "public",
+      "startDate": "2023-12-05T00:00:00Z",
+      "endDate": "2023-12-05T23:59:59Z",
+      "entryCost": 100,
+      "title": "Tech Conference",
+      "description": "A conference showcasing the latest in technology.",
+      "adminId": 103,
+      "location": {
+        "latitude": 37.774929,
+        "longitude": -122.419418
+      },
+      "attendees": []
+    },
+    {
+      "id": 4,
+      "type": "private",
+      "startDate": "2023-10-30T00:00:00Z",
+      "endDate": "2023-10-30T23:59:59Z",
+      "entryCost": 0,
+      "title": "Company Retreat",
+      "description": "An exclusive company retreat for team building.",
+      "adminId": 104,
+      "location": {
+        "latitude": 34.052235,
+        "longitude": -118.243683
+      },
+      "attendees": []
+    },
+    {
+      "id": 5,
+      "type": "public",
+      "startDate": "2023-12-15T00:00:00Z",
+      "endDate": "2023-12-15T23:59:59Z",
+      "entryCost": 20,
+      "title": "Art Exhibition",
+      "description": "An exhibition showcasing local artists.",
+      "adminId": 105,
+      "location": {
+        "latitude": 37.761907,
+        "longitude": -122.409302
+      },
+      "attendees": []
+    },
+    {
+      "id": 6,
+      "type": "private",
+      "startDate": "2023-11-01T00:00:00Z",
+      "endDate": "2023-11-01T23:59:59Z",
+      "entryCost": 0,
+      "title": "Wedding",
+      "description": "A private wedding ceremony.",
+      "adminId": 106,
+      "location": {
+        "latitude": 34.052235,
+        "longitude": -118.243683
+      },
+      "attendees": []
+    }
+  ]
+}

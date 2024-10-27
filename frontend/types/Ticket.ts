@@ -1,6 +1,6 @@
 export interface Ticket {
-  id: number;
-  userId: number;
-  partyId: number;
-  paid: boolean;
+    id: number;
+    userId: number;
+    partyId: number;
+    paid: boolean;
 }

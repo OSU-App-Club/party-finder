@@ -58,6 +58,12 @@ Welcome to the Party Finder App! This application helps users find and join part
             Owen Krause
             </a>
         </td>
+        <td align="center">
+          <a href="https://github.com/ConnorMSun">
+            <img src="https://images.weserv.nl/?url=github.com/ConnorMSun.png&fit=cover&mask=circle" width="80"><br>
+            Connor Sun
+            </a>
+        </td>
         <!-- TEMPLATE BELOW (uncomment to include) -->
         <!-- <td align="center">
           <a href="https://github.com/[username]">

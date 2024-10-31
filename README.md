@@ -46,9 +46,11 @@ Welcome to the Party Finder App! This application helps users find and join part
   <table>
     <tbody>
       <tr>
-        <a href="https://github.com/OSU-App-Club/party-finder/graphs/contributors">
-          <img src="https://contrib.rocks/image?repo=OSU-App-Club/party-finder" />
-        </a>
+        <td align="center">
+          <a href="https://github.com/OSU-App-Club/party-finder/graphs/contributors">
+            <img src="https://contrib.rocks/image?repo=OSU-App-Club/party-finder" />
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>

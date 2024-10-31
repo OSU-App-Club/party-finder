@@ -52,6 +52,12 @@ Welcome to the Party Finder App! This application helps users find and join part
             Tom Nyuma
           </a>
         </td>
+        <td align="center">
+          <a href="https://github.com/owenkrause">
+            <img src="https://avatars.githubusercontent.com/u/53019972?v=4&size=64" width="80"><br>
+            Owen Krause
+            </a>
+        </td>
         <!-- TEMPLATE BELOW (uncomment to include) -->
         <!-- <td align="center">
           <a href="https://github.com/[username]">

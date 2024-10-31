@@ -58,7 +58,7 @@ Welcome to the Party Finder App! This application helps users find and join part
             Joshua Wright 
             </a>
         </td>
-          <!-- TEMPLATE BELOW (uncomment to include) -->
+        <!-- TEMPLATE BELOW (uncomment to include) -->
         <!-- <td align="center">
           <a href="https://github.com/[username]">
             <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>

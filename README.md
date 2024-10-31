@@ -63,7 +63,7 @@ Welcome to the Party Finder App! This application helps users find and join part
           <a href="https://github.com/[username]">
             <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>
             [Full Name]
-          </a>
+            </a>
         </td> -->
       </tr>
     </tbody>

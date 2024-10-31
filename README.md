@@ -65,12 +65,12 @@ Welcome to the Party Finder App! This application helps users find and join part
             </a>
         </td>
         <!-- TEMPLATE BELOW (uncomment to include) -->
-        <!-- <td align="center">
-          <a href="https://github.com/[username]">
-            <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>
-            [Full Name]
+        <td align="center">
+          <a href="https://github.com/yaffenator">
+            <img src="https://images.weserv.nl/?url=github.com/yaffenator.png&fit=cover&mask=circle" width="80"><br>
+            Noam Yaffe
             </a>
-        </td> -->
+        </td>
       </tr>
     </tbody>
   </table>

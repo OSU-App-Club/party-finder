@@ -54,10 +54,17 @@ Welcome to the Party Finder App! This application helps users find and join part
         </td>
         <td align="center">
           <a href="https://github.com/pandadoki">
-            <img src="https://avatars.githubusercontent.com/u/53231317?v=4&size=64" width="80"><br>
+            <img src="https://images.weserv.nl/?url=github.com/pandadoki.png&fit=cover&mask=circle" width="80"><br>
             Joshua Wright 
             </a>
         </td>
+          <!-- TEMPLATE BELOW (uncomment to include) -->
+        <!-- <td align="center">
+          <a href="https://github.com/[username]">
+            <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>
+            [Full Name]
+          </a>
+        </td> -->
       </tr>
     </tbody>
   </table>

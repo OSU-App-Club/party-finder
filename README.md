@@ -41,3 +41,25 @@ Welcome to the Party Finder App! This application helps users find and join part
     ```
 
 
+<div align="start">
+  <h2>Contributors</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td align="center">
+          <a href="https://github.com/Nyumat">
+            <img src="https://images.weserv.nl/?url=github.com/Nyumat.png&fit=cover&mask=circle" width="80"><br>
+            Tom Nyuma
+          </a>
+        </td>
+        <!-- TEMPLATE BELOW (uncomment to include) -->
+        <!-- <td align="center">
+          <a href="https://github.com/[username]">
+            <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>
+            [Full Name]
+            </a>
+        </td> -->
+      </tr>
+    </tbody>
+  </table>
+</div>

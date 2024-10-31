@@ -46,25 +46,9 @@ Welcome to the Party Finder App! This application helps users find and join part
   <table>
     <tbody>
       <tr>
-        <td align="center">
-          <a href="https://github.com/Nyumat">
-            <img src="https://images.weserv.nl/?url=github.com/Nyumat.png&fit=cover&mask=circle" width="80"><br>
-            Tom Nyuma
-          </a>
-        </td>
-        <td align="center">
-          <a href="https://github.com/pandadoki">
-            <img src="https://images.weserv.nl/?url=github.com/pandadoki.png&fit=cover&mask=circle" width="80"><br>
-            Joshua Wright 
-            </a>
-        </td>
-        <!-- TEMPLATE BELOW (uncomment to include) -->
-        <!-- <td align="center">
-          <a href="https://github.com/[username]">
-            <img src="https://images.weserv.nl/?url=github.com/[username].png&fit=cover&mask=circle" width="80"><br>
-            [Full Name]
-            </a>
-        </td> -->
+        <a href="https://github.com/OSU-App-Club/party-finder/graphs/contributors">
+          <img src="https://contrib.rocks/image?repo=OSU-App-Club/party-finder" />
+        </a>
       </tr>
     </tbody>
   </table>

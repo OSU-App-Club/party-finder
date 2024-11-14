@@ -1,38 +1,26 @@
+import { useFetchPaymentSheet } from '@/hooks/queries/useFetchPaymentSheet';
 import { useStripe } from '@stripe/stripe-react-native';
 import React, { useEffect, useState } from 'react';
-import { View, Button, Text, Alert } from 'react-native';
+import { View, Button, Text, Alert, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function CheckoutScreen() {
   const { initPaymentSheet, presentPaymentSheet } = useStripe();
   const [loading, setLoading] = useState(false);
-
-  const fetchPaymentSheetParams = async () => {
-    const response = await fetch(`http://localhost:3000/payment-sheet`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-    const { paymentIntent, ephemeralKey, customer } = await response.json();
-
-    return {
-      paymentIntent,
-      ephemeralKey,
-      customer,
-    };
-  };
+  const { data, isLoading } = useFetchPaymentSheet();
 
   const initializePaymentSheet = async () => {
-    const { paymentIntent, ephemeralKey, customer } = await fetchPaymentSheetParams();
+    if (isLoading || !data) {
+      return;
+    }
 
     const { error } = await initPaymentSheet({
       merchantDisplayName: 'Example, Inc.',
-      customerId: customer,
-      customerEphemeralKeySecret: ephemeralKey,
-      paymentIntentClientSecret: paymentIntent,
-      // Set `allowsDelayedPaymentMethods` to true if your business can handle payment
-      //methods that complete payment after a delay, like SEPA Debit and Sofort.
+      customerId: data.customer,
+      customerEphemeralKeySecret: data.ephemeralKey,
+      paymentIntentClientSecret: data.paymentIntent,
+    //   Set `allowsDelayedPaymentMethods` to true if your business can handle payment
+    //   methods that complete payment after a delay, like SEPA Debit and Sofort.
       allowsDelayedPaymentMethods: true,
       defaultBillingDetails: {
         name: 'Jane Doe',
@@ -56,11 +44,30 @@ export default function CheckoutScreen() {
 
   useEffect(() => {
     initializePaymentSheet();
-  }, []);
+  }, [data]);
 
   return (
     <SafeAreaView>
-      <Button disabled={!loading} title="Checkout" onPress={openPaymentSheet} />
+      <View style={styles.container}>
+        <View style={styles.button}>
+          <Button color="white" disabled={!loading} title="Checkout" onPress={openPaymentSheet} />
+        </View>
+      </View>
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  button: {
+    backgroundColor: 'black',
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    alignItems: 'center',
+  },
+});
